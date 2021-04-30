@@ -1,18 +1,18 @@
-// let a = 2 + 2;
-//
-// switch (a) {
-//     case 3:
-//         alert( 'Маловато' );
-//         break;
-//     case 4:
-//         alert( 'В точку!' );
-//         break;
-//     case 5:
-//         alert( 'Перебор' );
-//         break;
-//     default:
-//         alert( "Нет таких значений" );
-// }
+let a = +prompt('input num');
+
+switch (a) {
+    case 3:
+        alert( 'Маловато' );
+        break;
+    case 4:
+        alert( 'В точку!' );
+        break;
+    case 5:
+        alert( 'Перебор' );
+        break;
+    default:
+        alert( "Нет таких значений" );
+}
 
 // Пример без break:
 // let a = 2 + 2;
@@ -31,7 +31,7 @@
 
 //Группировка «case»
 //Несколько вариантов case, использующих один код, можно группировать.
-// let a = 2 + 2;
+// let a = 2 + 1;
 //
 // switch (a) {
 //     case 4:
